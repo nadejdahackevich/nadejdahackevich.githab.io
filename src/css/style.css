@@ -1,5 +1,5 @@
-body{font-family: Arial sans-serif
-    
+body{
+    font-family: Arial, sans-serif;
 }
 nav{
     width: 100%;
@@ -15,53 +15,50 @@ nav{
     float:left;    
 }
 .menu{
-    padding-left: 943px;
-    line-height: 60px;
-    }
+    float: left;
+    padding-left: 432px;
+    
+}
 .menu li{
-    float:left;
+    float: left;
     line-height: 60px;
     color: #fff;
-    margin-right: 20px;
+    margin-right: 40px;
+    font-size: 16px;
     text-transform: uppercase;
+    
 }
 .main{
-    
     width: 100%;
-    height: 100%;
-  padding-top: 100px;
-    background: url(../img/%D0%9F%D0%B0%D1%80%D0%B5%D0%BD%D1%8C1.png) 100% 100%/auto 85% no-repeat,url(../img/%D1%84%D0%BE%D0%BD%201.png)  left/cover no-repeat;
+    height: calc( 100%-60px );
+    background: url(../img/%D0%9F%D0%B0%D1%80%D0%B5%D0%BD%D1%8C1.png)  100% 100%/auto 85% no-repeat,url(../img/%D1%84%D0%BE%D0%BD%201.png)center/cover no-repeat;
 }
-
 .title__container{
-    
-    margin:280px 450px 800px 0px;
+    float:left;
+    margin:432px 0px 0px 404px;
     color: #2c384a;
     text-align: center;
     
 }
-.title__container h1{
-
-    padding:0px 0px 0px 0px;
-    font-size: 40px;
+title__container h1{
+    font-size: 60px;
     font-weight: bold;
-   text-align: center;
+       
 }
-.title__container h4{
-
+title__container h4{
     margin-top: 40px;
     font-size: 22px;
-    color: #79818d;        
+    color: #79818d;
+        
 }
 .title__container input{
-   
     height: 40px;
-    
+    text-align: center;
     border: 2px solid #6d7682;
     background: none;
     border-radius: 5px;
     color: #6d7682;
     font-size: 13px;
     padding: 0px 16px;
-    margin: 50px 6px 0px 14px;
+    margin: 50px; 28px 0px 14px;
     }
