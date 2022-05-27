@@ -1,0 +1,17 @@
+ul::{
+    margin:50px;
+    font-size:10px;
+}
+li::after{
+    content: "";
+  
+}
+li::before{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+    border-radius: 50%;
+    margin-right: 10px; 
+}

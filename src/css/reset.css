@@ -7,6 +7,7 @@ border: 0;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
    -yandex-box-sizing:border-box;
+   
 }
 
 :focus, :active{outline: none;}
@@ -23,7 +24,8 @@ font-size:14px;
 -ms-text-size-adjust: 100%;
 -moz-text-size-adjust: 100%;
 -webkit-text-size-adjust: 100%;
--yandex-text-size-adjust:100%;   
+-yandex-text-size-adjust:100%;
+    
 }
 
 input, button, textarea{font-family: inherit;
